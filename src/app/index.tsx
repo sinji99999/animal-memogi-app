@@ -71,7 +71,7 @@ export default function HomeScreen() {
 
       <View style={styles.header}>
         <Text style={[styles.title, f('bold')]}>🐾 Animal Era</Text>
-        <Text style={[styles.subtitle, f('regular')]}>Claim your aesthetic animal energy ✨</Text>
+        <Text style={[styles.subtitle, f('regular')]}>Step into your animal era ✨</Text>
       </View>
 
       <Pressable
@@ -188,8 +188,7 @@ const styles = StyleSheet.create({
   container:              { flex: 1, backgroundColor: '#F8F4FF' },
   header:                 { alignItems: 'center', paddingTop: 60, paddingBottom: 30 },
   title:                  { fontSize: 28, color: '#3D2C8D' },
-  subtitle:               { fontSize: 15, color: '#9B89C4', marginTop: 6 },
-
+  subtitle:               { fontSize: 16, color: '#9B89C4', marginTop: 6, alignSelf: 'flex-end', paddingRight: 1170 },
   uploadBox:              { margin: 20, padding: 36, backgroundColor: '#fff', borderRadius: 20, alignItems: 'center', borderWidth: 2, borderColor: '#C4B5F4', borderStyle: 'dashed' },
   uploadIcon:             { fontSize: 40 },
   uploadText:             { fontSize: 16, color: '#3D2C8D', marginTop: 10 },
