@@ -3,6 +3,7 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@expo-google-fonts/outfit": "^0.4.3",
     "@expo/ui": "~56.0.15",
     "expo": "~56.0.8",
     "expo-constants": "~56.0.16",
@@ -10,6 +11,8 @@
     "expo-font": "~56.0.5",
     "expo-glass-effect": "~56.0.4",
     "expo-image": "~56.0.9",
+    "expo-image-manipulator": "~56.0.16",
+    "expo-image-picker": "~56.0.15",
     "expo-linking": "~56.0.13",
     "expo-router": "~56.2.8",
     "expo-splash-screen": "~56.0.10",
