@@ -1,7 +1,7 @@
-import { useState, useRef } from 'react';
-import { StyleSheet, Text, View, Pressable, ScrollView, Image, Animated } from 'react-native';
+import { Outfit_400Regular, Outfit_600SemiBold, Outfit_700Bold, useFonts } from '@expo-google-fonts/outfit';
 import * as ImagePicker from 'expo-image-picker';
-import { useFonts, Outfit_400Regular, Outfit_600SemiBold, Outfit_700Bold } from '@expo-google-fonts/outfit';
+import { useRef, useState } from 'react';
+import { Animated, Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import CropModal from '../components/CropModal';
 
 const ANIMALS = [
@@ -186,9 +186,9 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   container:              { flex: 1, backgroundColor: '#F8F4FF' },
-  header:                 { alignItems: 'center', paddingTop: 60, paddingBottom: 30 },
-  title:                  { fontSize: 28, color: '#3D2C8D' },
-  subtitle:               { fontSize: 16, color: '#9B89C4', marginTop: 6, alignSelf: 'flex-end', paddingRight: 1170 },
+  header:   { paddingTop: 60, paddingBottom: 30, width: '100%', alignItems: 'center' },
+  title: { fontSize: 28, color: '#3D2C8D', textAlign: 'center', width: '100%' },
+  subtitle: { fontSize: 16, color: '#9B89C4', marginTop: 6, textAlign: 'center', width: '100%' },
   uploadBox:              { margin: 20, padding: 36, backgroundColor: '#fff', borderRadius: 20, alignItems: 'center', borderWidth: 2, borderColor: '#C4B5F4', borderStyle: 'dashed' },
   uploadIcon:             { fontSize: 40 },
   uploadText:             { fontSize: 16, color: '#3D2C8D', marginTop: 10 },
